@@ -1,1 +1,14 @@
+test si un tableau est trie
 
+pour cela il faut d'abord savoir pas quel ordre le tableau doit être trie : un tableau peut être trie pas odre croissant ou decroissant selon notre choix.
+  •	Un tableau est dit trié par ordre croissant si chaque élément est inférieur ou égal à celui qui le suit. Par exemple, le tableau [3, 6, 6, 7, 9] est trié car chaque nombre est plus petit ou égal a celui qui le suit.
+	•	Un tableau est dit trié par ordre décroissant si chaque élément est supérieur ou égal à celui qui le suit. Par exemple, [9, 7, 5, 3, 1] est trié décroissant car chaque nombre est plus grand a celui qui le suit.
+
+Pour vérifier si un tableau est trié, on parcourt ses éléments un par un en les comparant à leurs voisins :
+	•	Si l’on veut tester l’ordre croissant, on vérifie que chaque élément n’est jamais plus grand que le suivant.
+	•	Si l’on veut tester l’ordre décroissant, on vérifie que chaque élément n’est jamais plus petit que le suivant.
+
+Si, au cours de cette vérification, on trouve une comparaison qui ne respecte pas la règle, alors le tableau n’est pas trié.
+Sinon, s’il n’y a aucune erreur jusqu’à la fin, cela signifie que le tableau est bien trié.
+
+En résumé, tester si un tableau est trié revient à comparer chaque élément avec celui qui vient juste après, afin de vérifier que l’ordre choisi (croissant ou décroissant) est respecté dans tout le tableau.
