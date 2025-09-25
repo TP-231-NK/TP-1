@@ -6,5 +6,5 @@ Dans la réalisation de ce TP ,j'ai eu à concevoir ou à réaliser 3 programme 
 C[i][j] = A[i][j] + B[i][j] 
  # produit de deux matrices:
  Ce programme est conçu de manière à demander à l'utilisateur d'entrée le nombre de ligne et de colonne des matrices à multiplier. Cela est Possible si et  seulement si le nombre de colonne de la première matrices est égal au nombre de ligne  de la seconde matrices , on multiplie élément par élément :
-C[i][j] += A[i][k] * B[i][k] 
+C[i][j] += A[i][k] * B[k][j] 
 en ayant initialiser C[i][j] à 0 au préalable.
