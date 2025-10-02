@@ -27,4 +27,4 @@ STRUCTURE DE DONNEES  portant sur les thèmes suivants :
 4. inserer en tête et en queue dans une liste simplement chaînée circulaire.
 5. inserer en tête et en queue dans une liste doublement chaînée circulaire.
 
-Ces programmes on été implémentés par tous les membres du groupe .
+Chaque programmes a été implémentés par tous les membres du groupe tous ensemble. 
